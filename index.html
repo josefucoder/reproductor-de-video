@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Reproductor de Video</title>
+</head>
+<body>
+    <div class="lista">
+        <div class="menu">
+            <button id="cerrar"><i class="material-icons">close</i></button>
+            <h1>Lista de Contenido:</h1>
+        </div>
+    </div>
+    <button class="abrirMenu"><i class="material-icons">more_horiz</i></button>
+    <div class="reproductor">
+        <video poster="poster.jpg" src=""></video>
+        <div class="barra-con">
+            <!-- <div class="loader"></div> -->
+        </div>
+       
+        <div class="controles">
+            <div class="titulo"></div>
+            <div class="duracion"></div>
+            <!-- <div class="barra"></div> -->
+            <input type="range" min="0" max="0" value="0" step="1" name="" id="progreso">
+            <div class="botones">
+                <button id="play" disabled><i class="material-icons">play_arrow</i></button>
+            <!-- <button id="pause" disabled><i class="material-icons">pause</i></button> -->
+            <button id="reboot" disabled><i class="material-icons">stop</i></button>
+            <button id="atras" disabled><i class="material-icons">replay_10</i></button>
+            <button id="adelante" disabled><i class="material-icons">forward_10</i></button>
+            <button id="vol_down" disabled><i class="material-icons">volume_down</i></button>
+            <button id="vol_up" disabled><i class="material-icons">volume_up</i></button>
+            <button id="mute" disabled><i class="material-icons">volume_mute</i></button>
+            <button id="lista"><i class="material-icons">view_list</i></button>
+            <button id="picture" disabled><i class="material-icons">branding_watermark</i></button>
+            <button id="full"><i class="material-icons">fullscreen</i></button>
+            <!-- <button class="con-archivo"> -->
+                <label for="archivo"><i class="material-icons">file_upload</i></label>
+                <input type="file" name="" id="archivo">
+            <!-- </button> -->
+            <button id="controles"><i class="material-icons">close</i></button>
+            </div>
+    </div>
+    </div>
+    
+<script src="js.js"></script>
+</body>
+</html>
